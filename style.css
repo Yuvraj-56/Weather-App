@@ -1,3 +1,10 @@
+body{
+    background-image: url(https://media.istockphoto.com/id/182493016/photo/sky-and-grass-backround.jpg?s=612x612&w=0&k=20&c=u9Hk93MPbXqjOTTEFNGMq7JJJ46HDBlnqiG7dvrbu9w=);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment:scroll;
+}
 .box{
     width: 300px;
     height: 400px;
@@ -5,6 +12,7 @@
     background-image: linear-gradient(to right top, #1db9ff, #3f0f5c);
     border-radius: 20px;
     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+
 
 }
 .mainContainer{
@@ -32,3 +40,27 @@
     display: flex;
     justify-content: center;
 }
+.bx2{
+    display: flex;
+    justify-content: center;
+}
+.bx3{
+    text-align: center;
+    font-size: 15px;
+    color: #e1c4f3;
+
+}
+select{
+    background-color: #e1c4f3;
+    margin-top: 7px;
+}
+label{
+    color: rgb(117, 174, 132);
+    
+    
+}
+.bx1{
+    margin-top: 10px;
+}
+
+
