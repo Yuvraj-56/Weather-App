@@ -3,53 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="This website is Simple Weather App using HTML, CSS, JavaScript.">
     <title>Weather App</title>
     <link rel="stylesheet" href="style.css">
     <!-- dribble -->
     <!-- api is backend code that communicate with frontend request and give the response -->
 </head>
 <body>
-    <div class="mainContainer">
-        <div class="container">
-            <div class="header">
-                <div>Weather App</div>
-            </div>
-            <div class="box">
-                <div class="ig">
-                    <img src="./cloudy.png" alt="cloud img" height=100px>
-                </div>
-                <div class="bx1">
-                    <div class="bx2">
-                        <form method="POST">
-                            <label for="City"> Choose the City </label>
-                            <br>
-                            <select name="City" id="City">
-                                <option value=""> Choose the option</option>
-                                <option value="Kathmandu">Kathmandu</option>
-                                <option value="Pokhara">Pokhara</option>
-                                <option value="Biratnagar">Biratnagar</option>
-                                <option value="Chitwan">Chitwan</option>
-                                <option value="Butwal">Butwal</option>
-                                <option value="Hariwon">Hariwon</option>
-                                <option value="janakpur">janakpur</option>
-                                <option value="Nepalgunj">Nepaljung</option>
-                                <option value="Dolpa">Dolpa</option>
-                            </select>
-                            
-                        </form>
-
-                    </div>
-                </div>
-                <div class="bx3">             
-                        <h3> Temperature:40°C</h3>
-                        <h3>Sunny Day</h3>
-                        <h3>Wind speed= 311 m/s </h3>
-                        <h3>Have a good day...</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="card">
+    <h1 style="text-align: center;">Enter Your City Name</h1>
+    <div class="search">
+        <input type="text" class="search-bar" placeholder="CityName..." id="cityname" value="" autofocus>
+        <button id="searchbtn">Search</button>
     </div>
 
+    <div class="weather">
+        <h2 class="city" id="city"></h2>
+        <h1 class="temp" id="temp"></h1>
+        <div class="flex">
+            <img src="" alt="" class="icon" id="weather-icon">
+            <div class="description" id="description"></div>
+        </div>
+        <div class="humidity" id="humidity"></div>
+        <div class="wind" id="wind"></div>
+    </div>
+
+   </div>
+
+
+
+
+
+    <script src="./script.js"></script>
 </body>
 </html>
