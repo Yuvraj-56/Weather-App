@@ -1,10 +1,17 @@
-body{
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     background-image: url(https://media.istockphoto.com/id/182493016/photo/sky-and-grass-backround.jpg?s=612x612&w=0&k=20&c=u9Hk93MPbXqjOTTEFNGMq7JJJ46HDBlnqiG7dvrbu9w=);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-position: center;
-    background-attachment:scroll;
+    background-attachment: scroll;
 }
+
 .box{
     width: 300px;
     height: 400px;
@@ -34,6 +41,9 @@ body{
   }
   
   .card {
+    justify-content: center;
+    align-items: center;
+
     background: rgba(0, 0, 0, 0.30);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(11.5px);
@@ -47,6 +57,7 @@ body{
     max-width: 420px;
     margin: 1em;
     overflow: hidden;
+    
   }
   
   .search {
